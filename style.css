@@ -1,0 +1,26 @@
+.image-uploader {
+    text-align: center;
+    margin: 20px;
+}
+
+#fileInput {
+    display: none;
+}
+
+#uploadButton {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+}
+
+.image-preview {
+    text-align: center;
+    margin: 20px;
+}
+
+#previewImage {
+    max-width: 100%;
+    max-height: 400px;
+}
