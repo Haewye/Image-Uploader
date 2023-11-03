@@ -19,7 +19,11 @@ uploadButton.addEventListener('click', () => {
     fileInput.click();
 });
 
-// Check if there's a stored image in localStorage and display it on page load
+function removeImage(){
+    localStorage.removeItem('uploadedImage');
+    document.getElementById('previewImage').src='';
+}
+
 const storedImage = localStorage.getItem('uploadedImage');
 if (storedImage) {
     previewImage.src = storedImage;
