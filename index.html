@@ -3,16 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <title>Image Uploader</title>
 </head>
 <body>
+    <div class="container">
+        <h1>IMAGE UPLOADER PROJECT</h1>
+    <div class="preview">
+        <img id="previewImage" src="" alt="Image Preview">
+    </div>
     <div class="image-uploader">
         <input type="file" id="fileInput" accept="image/*">
         <button id="uploadButton">Upload Image</button>
+        <button id="removeButton">Remove Image</button>
     </div>
-    <div class="image-preview">
-        <img id="previewImage" src="" alt="Image Preview">
     </div>
 
     <script src="sandbox.js"></script>
